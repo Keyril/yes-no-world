@@ -5,9 +5,9 @@ def getInput():
 	giveResponse(inputtext)
 
 def giveResponse(inputtext):
-	if (str(inputtext) == "y" or "yes"):
+	if (inputtext == "y" or inputtext == "yes"):
 		print("Hello World")
-	elif (str(inputtext) == "n" or "no"):
+	elif (inputtext == "n" or inputtext == "no"):
 			print("Will not run")
 	else: 
 			print("Please use input of 'yes' or 'no' (y or n suffices as well)") 
